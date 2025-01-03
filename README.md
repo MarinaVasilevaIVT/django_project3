@@ -109,10 +109,10 @@ urlpatterns = [
 
 ![3](images/3.png)
 ![4](images/4.png)
-![5](images/5.png)
 
 Мы успешно вошли в аккаунт через Google account!
-![6](images/6.png)
+
+![5](images/5.png)
 
 Полный код и содержание веб-приложения представлены в ветке [master](https://github.com/MarinaVasilevaIVT/django_project3/tree/master)
 
