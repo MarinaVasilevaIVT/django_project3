@@ -119,5 +119,7 @@ urlpatterns = [
 ## Дополнительные задачи
 
 [Официальная документация django-allauth](https://django-allauth.readthedocs.io/en/latest/)
+
 [Аутентификация OAuth в Django с помощью social-auth](https://django.fun/articles/tutorials/autentifikaciya-oauth-v-django-s-pomoshyu-social-auth/)
+
 [Авторизация через Google · Django в примерах - pocoz](https://pocoz.gitbooks.io/django-v-primerah/content/glava-4-sozdanie-social-website/avtorizatsiya-cherez-sotsialnie-seti/avtorizatsiya-cherez-google.html)
