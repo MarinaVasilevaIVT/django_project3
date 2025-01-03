@@ -1,5 +1,6 @@
 from django.urls import path
 from . import views
+from django.contrib.auth.views import LoginView
 
 app_name = "polls"
 
@@ -16,7 +17,7 @@ urlpatterns = [
     path("create/", views.create_poll, name="create_poll"),
     
     # Маршруты для аутентификации
-    path("login/", views.login_view, name="login"),
+    path("login/", LoginView.as_view(template_name="polls/login.html"), name="login"),
     path("logout/", views.logout_view, name="logout"),
     path("register/", views.register, name="register"),
 ]
