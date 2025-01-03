@@ -11,7 +11,7 @@ class QuestionAdmin(admin.ModelAdmin):
         (None, {"fields": ["question_text"]}),
         ("Date information", {"fields": ["pub_date"], "classes": ["collapse"]}),
     ]
-    readonly_fields = ["pub_date"]  # Помечаем pub_date как только для чтения
+    readonly_fields = ["pub_date"]
     inlines = [ChoiceInline]
     list_display = ["question_text", "pub_date", "was_published_recently"]
     search_fields = ["question_text"]
